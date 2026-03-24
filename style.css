@@ -1,0 +1,39 @@
+   body{
+            background-color: cornflowerblue;
+            font-family: "Indie Flower", cursive;
+        }
+
+        p{
+            font-size: 50px;
+            color: aliceblue;
+            background-color: rgb(89, 63, 255);
+        }
+
+        p >a{
+            color: gold;
+        }
+
+        span{
+            color: chartreuse;
+        }
+
+        .cebolla-morada{
+            color: blueviolet;
+            font-size: 20px;
+            background-color: aliceblue;
+        }
+
+        ul{
+            background-color: rgb(76, 239, 95);
+            padding-bottom: 40px;
+            padding-top: 40px;
+            padding-right: 40px;
+        }
+
+        li{
+            background-color: rgb(255, 235, 84);
+        }
+
+        h1{
+            background-color: rgb(255, 121, 88);
+        }
