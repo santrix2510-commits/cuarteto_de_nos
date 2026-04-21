@@ -1,0 +1,25 @@
+header{
+    border: 2px solid cadetblue;
+}
+
+div{
+    border: 2px solid rgb(31, 147, 255);
+}
+
+img{
+    border: 2px solid rgb(122, 243, 41);
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    border: 2px solid firebrick;
+    text-align: center;
+}
+
+li{
+    border: 2px solid gold;
+}
