@@ -54,3 +54,59 @@ console.log(num1 - num2)
 console.log(num1 * num2)
 console.log(num1 / num2)
 console.log(resultado)
+
+//IF-ELSE
+/*
+EJERCICIO 1: APRENDIENDO A USAR IF 
+
+if (1 >0) {
+    console.log("la operacion es correcta, 1 si es mayor que 0")
+}
+  *******************************************************************  
+EJERCICIO 2: APRENDIENDO A USAR IFELSE
+
+  if (71 < 23) {
+    console.log(
+        "la operacion es correcta"
+    )
+} else {
+    console.log(
+        "error, 23 no es mayor que 71"
+    )
+}
+
+*********************************************************************
+EJERCICIO 3: UTILIZANDO VARIABLES DENTRO DE UN IFELSE
+
+
+let a = 41
+let b = 7812
+let c = 41
+
+if (a > b) {
+    console.log(
+        "A es mayor que B"
+    )
+} else {
+    console.log(
+        "A ES MENOR que B"
+    )
+}
+
+*********************************************************************
+
+EJERCICIO 4: USE TEMPLATE STRINGS PARA IMPRIMIR VARIABLES
+
+let nombre = "santino"
+let edad = 14
+
+console.log(
+    "hola mi nombre es "+ nombre + " y tengo " + edad + " años"
+)
+
+console.log(
+    `hola mi nombre es ${nombre} y tengo ${edad} años `
+)
+
+*/
+
