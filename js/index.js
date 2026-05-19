@@ -107,6 +107,35 @@ console.log(
 console.log(
     `hola mi nombre es ${nombre} y tengo ${edad} años `
 )
+--------------------------------------------------------------------------------
+EJERCICIO 5: diferencia entre tipo de datos string y number
 
+let numero1 = 90
+let caja = "santi"
+let caja2 = "90"
+let caja3 = 90
+
+console.log(
+    numero1 == caja2 // 2 signos de igual significan que la computadora verificara si son iguales EN VALOR
+)
+
+console.log(
+    numero1 === caja2 // 2 signos de igual significan que la computadora verificara si son iguales EN VALOR Y TIPO DE DATO
+)
 */
 
+//hacer un programa que me inprima buenos dias si son las 5am hasta las 11am, buenas tardes si son las 12am hasta las 18hs, buenas noches si son las 7pm hasta las 4am y error se me dan otro dato
+let hora = 20
+if (hora >= 5 && hora <= 11) {
+    console.log("buenos dias")
+} else if(hora >=12 && hora <= 18){
+    console.log("buenas tardes")
+}
+// else if(hora >= 19 && hora <= 24 && hora >= 0 && hora <= 4){
+    //console.log("buenas noches")
+//}
+
+for (let index = 0; index < 11; index++) {
+    console.log(index)
+
+}
