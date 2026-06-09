@@ -125,6 +125,9 @@ console.log(
 */
 
 //hacer un programa que me inprima buenos dias si son las 5am hasta las 11am, buenas tardes si son las 12am hasta las 18hs, buenas noches si son las 7pm hasta las 4am y error se me dan otro dato
+
+
+/*
 let hora = 20
 if (hora >= 5 && hora <= 11) {
     console.log("buenos dias")
@@ -139,3 +142,52 @@ for (let index = 0; index < 11; index++) {
     console.log(index)
 
 }
+  *****************************************************************************************
+  EJERCICIO 1: CREO UN BUCLE Y ME SALTO EL NUMERO 6  
+
+for (let index = 0; index < 11; index++) {
+    if (index == 6) {
+        continue
+    }
+    console.log(index)
+}
+    ***************************************************************************************
+    EJERCICIO 2: CREE UN BUCLE QUE SE DETIENE CUANDO LLEGA A 5
+
+for (let index = 0; index < 11; index++) {
+    
+    console.log(index)
+    if (index == 5) {
+        break
+    }
+    
+}
+   ****************************************************************************************
+   EJERCICIO 3: CREE UN BUCLE QUE ME IMPRIME LOS NUMEROS DEL 10 AL -1 
+for (let index = 10; index >= -1; index--) {
+    console.log(index)
+    
+}
+    ****************************************************************************************
+    EJERCICIO 4: CREE UN BUCLE QUE EMPIEZA EN EL 10 PERO SE DETIENE EN EL 7
+
+for (let index = 10; index > 0; index--) {
+    if (index == 7) {
+        break
+        
+    }
+    console.log(index)
+    
+}
+     */ 
+let frutas = ["manzana","naranja","banana","frutilla","durazno"]
+console.log(frutas.length)
+for (let index = 0; index < frutas.length; index++) {
+    console.log(frutas[index]) 
+    
+}
+console.log(frutas[0])
+console.log(frutas[1])
+console.log(frutas[2])
+console.log(frutas[3])
+console.log(frutas[4])
