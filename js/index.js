@@ -179,7 +179,7 @@ for (let index = 10; index > 0; index--) {
     console.log(index)
     
 }
-     */ 
+      
 let frutas = ["manzana","naranja","banana","frutilla","durazno"]
 console.log(frutas.length)
 for (let index = 0; index < frutas.length; index++) {
@@ -191,3 +191,32 @@ console.log(frutas[1])
 console.log(frutas[2])
 console.log(frutas[3])
 console.log(frutas[4])
+  
+ let calificaciones = [
+    [10, 8, 5, 3, 1],
+    [9, 7, 6, 4, 2],
+    [11, 12, 15, 17, 20],
+    [13, 14, 16, 18, 19]
+
+ ]
+ 
+ 
+console.log(calificaciones)
+console.log(calificaciones[0])
+console.log(calificaciones[0][0])
+for (let index = 0; index < calificaciones.length; index++) {
+   for (let uruguay = 0; uruguay < calificaciones.length; uruguay++) {
+   console.log(calificaciones[index][uruguay])
+    
+   }
+    
+ }*/
+let autos =[
+    {modelo: "mustang",anio:1962 },
+    {modelo: "360z",anio:2010 },
+    {modelo: "civic",anio:2007 }
+]
+for (let index = 0; index < autos.length; index++) {
+   // console.log(autos[index])
+    console.log(autos[index].modelo +" "+ autos[index].anio)
+}
