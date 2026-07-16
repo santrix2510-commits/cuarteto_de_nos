@@ -90,27 +90,27 @@ section div h1{
     }
 
     main{
-        border: 5px blue solid;
+        
     }
 
     main section{
        display:flex;
-       border: 5px red solid;
+       
     }
 
     main section div {
-        border: 5px green solid;
+        
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     main section div img{
-        border: 5px orange solid;
+      
     }
 
     main section div p{
-        border: 5px yellow solid;
+        
         margin: 0 100px;
         padding: 50px 0;
     }
