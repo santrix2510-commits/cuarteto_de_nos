@@ -6,6 +6,8 @@ body{
     font-family: "Alfa Slab One", serif;
 }
 
+/* HEADER */
+
 header{
    
 }
@@ -37,6 +39,29 @@ a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 25px;
+}
+
+/* REDES SOCIALES */
+
+.fa-instagram{
+    color: #e1306c;
+    font-size: 50px;
+}
+.fa-tiktok{
+    color: #25F4EE;
+    font-size: 50px;
+}
+.fa-youtube{
+    color: #ff0000;
+    font-size: 50px;
+}
+.fa-spotify{
+    color: #1db954;
+    font-size: 50px;
+}
+.fa-square-facebook{
+    color: #1877f2;
+    font-size: 50px;
 }
 
 section.imagen-principal{
