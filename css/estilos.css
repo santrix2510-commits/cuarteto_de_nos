@@ -17,7 +17,7 @@ div{
 }
 
 img{
-    
+    display: block;
 }
 
 .logo{
@@ -65,18 +65,20 @@ a{
 }
 
 section.imagen-principal{
+    border: #25F4EE solid 1px;
     width: 100%;
     height: 80vh;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-     display: flex;
-     justify-content: center;
-     margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 section div {
-    width: 95%;
-    height: 50vh;
+    border: yellow solid 2px;
+    width: 80%;
     margin-top: 50px;
 }
 
@@ -92,7 +94,28 @@ section div div {
 
 section div div img{   
     width: 100%;
-    height: 60vh;
+    height: 300px;
+    border: #e84cf7 solid 2px;
+}
+
+/*          SECCION MAIN            */
+
+main {
+    border: #ff0000 solid 5px;
+}
+
+main section div{
+    border: #1db954 solid 5px; 
+}
+
+main section{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section div img{
+    width: 100%;
 }
 
 /*          DESKTOP         */
