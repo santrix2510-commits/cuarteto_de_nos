@@ -45,23 +45,23 @@ a{
 
 .fa-instagram{
     color: #e1306c;
-    font-size: 50px;
+    font-size: 25px;
 }
 .fa-tiktok{
     color: #25F4EE;
-    font-size: 50px;
+    font-size: 25px;
 }
 .fa-youtube{
     color: #ff0000;
-    font-size: 50px;
+    font-size: 25px;
 }
 .fa-spotify{
     color: #1db954;
-    font-size: 50px;
+    font-size: 25px;
 }
 .fa-square-facebook{
     color: #1877f2;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 section.imagen-principal{
@@ -114,6 +114,13 @@ main section div img{
     width: 100%;
 }
 
+/*  EFECTOS  */
+
+li a:hover{
+        transform: scale(1.5,1.5);
+        transition: 1s;
+    }
+
 /*          DESKTOP         */
 
 @media only screen and (min-width:968px) {
@@ -138,10 +145,7 @@ main section div img{
         align-items: center;
     }
 
-    li:hover{
-        transform: scale(1.5,1.5);
-        transition: 1s;
-    }
+    
 
     main{
         
