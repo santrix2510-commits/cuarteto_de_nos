@@ -173,3 +173,20 @@ li a:hover{
         padding: 50px 0;
     }
 }
+
+footer div{
+    margin-bottom: 20px;
+    border: blue solid 1px;
+}
+
+footer div img{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer div p{ 
+    text-align: center;
+    padding: 0 20px;
+}
