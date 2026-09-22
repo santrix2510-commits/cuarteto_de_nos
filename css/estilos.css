@@ -172,17 +172,60 @@ li a:hover{
         margin: 0 100px;
         padding: 50px 0;
     }
+
+    footer{
+         display: flex;
+         justify-content: space-around;
+       
+    }
+
+    .logo-footer{
+       
+    }
+
+    .Copyright{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .Copyright p{
+        
+        padding: 30px 90px 30px 90px;
+    }
+
+    .redesSociales-footer{
+        
+    }
+
+    footer .redesSociales-footer ul li a{
+        margin: 0 40px 0 40px;
+    }
+
+    footer div ul li a .fa-square-facebook{
+        font-size: 60px;
+    }
+    
+    footer div ul li a .fa-spotify{
+        font-size: 60px;
+    }
+
+     footer div ul li a .fa-tiktok{
+        font-size: 60px;
+    }
+
+      footer div ul li a .fa-youtube{
+        font-size: 60px;
+    }
+
+      footer div ul li a .fa-instagram{
+        font-size: 60px;
+    }
+
 }
 
-footer div{
-    margin-bottom: 20px;
-    border: blue solid 1px;
-}
 
-footer div img{
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
