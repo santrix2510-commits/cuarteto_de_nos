@@ -57,35 +57,81 @@
     </div>
   </header>
 
- <main class="contacto"> 
-        <section class="formulario-contacto">
-            <h2>
-                "Escribinos"
-            </h2>
-            <p>Si tienes dudas sobre nuestros productos, escribenos al pais correspondiente</p>
-      
-            <form action="#">
-                <div class="campo">
-                    <label for="">nombre</label>
-                    <input type="text" required name="nombre">
-                </div>
-                <div class="campo">
-                    <label for="email">correo electronico</label>
-                    <input type="email" required name="email">
-                </div>
-                <div class="campo">
-                    <label for="asunto">asunto</label>
-                    <input type="text"required name="asunto">
-                </div>
-                <div class="campo">
-                    <label for="mensaje">mensaje</label>
-                    <textarea name="mensaje" id="mensaje" required name="mensaje"></textarea>
-                </div>
 
-                <button type="submit">enviar</button>
-            </form>
-         </section>
- </main>
+  <main>
+    <section>
+        <h2>Escríbenos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At provident eum, quasi nostrum voluptates laudantium illo incidunt optio nihil dolor libero sint veniam totam eligendi placeat magnam quas harum! Unde.</p>
+    </section>
+
+    <form class="formulario" action="#" method="post">
+
+            <div class="formulario__campo">
+                <label for="pais">País <span>(*)</span></label>
+                <select id="pais" name="pais" required>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Uruguay">Uruguay</option>
+                </select>
+            </div>
+
+            <div class="formulario__campo">
+                <label for="nombre">Tu nombre <span>(*)</span></label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    autocomplete="name"
+                    required
+                >
+            </div>
+
+            <div class="formulario__campo">
+                <label for="correo">
+                    Tu correo electrónico <span>(*)</span>
+                </label>
+                <input
+                    type="email"
+                    id="correo"
+                    name="correo"
+                    autocomplete="email"
+                    required
+                >
+            </div>
+
+            <div class="formulario__campo">
+                <label for="telefono">Teléfono</label>
+                <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    autocomplete="tel"
+                >
+            </div>
+
+            <div class="formulario__campo">
+                <label for="asunto">Asunto <span>(*)</span></label>
+                <select id="asunto" name="asunto" required>
+                    <option value="Consulta">Consulta</option>
+                </select>
+            </div>
+
+            <div class="formulario__campo">
+                <label for="mensaje">Tu mensaje <span>(*)</span></label>
+                <textarea
+                    id="mensaje"
+                    name="mensaje"
+                    rows="7"
+                    required
+                ></textarea>
+            </div>
+
+            <button class="formulario__boton" type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+  </main>
 
    <footer>
     <div class="logo">

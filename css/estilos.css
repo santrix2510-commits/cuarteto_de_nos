@@ -64,6 +64,10 @@ a{
     font-size: 25px;
 }
 
+.last-icon{
+    margin-right: 50px;
+}
+
 section.imagen-principal{
     width: 100%;
     height: 80vh;
@@ -115,12 +119,11 @@ main section div img{
     border-radius: 100px;
 }
 
-/*  EFECTOS  */
+/*  contacto.html  */
 
-li a:hover{
-        transform: scale(1.5,1.5);
-        transition: 1s;
-    }
+
+
+
 
 /*formulario de contacto*/
 .contacto{
@@ -247,6 +250,7 @@ li a:hover{
         transition: 0.5s;
     }
 
+
     main{
         
     }
@@ -273,31 +277,29 @@ li a:hover{
 
     footer{
          display: flex;
-         justify-content: space-around;
+         justify-content: center;
         
     }
 
     .logo-footer{
-       
+       margin-right: 10em;
     }
 
     .Copyright{
         display: flex;
         align-items: center;
-        
     }
 
     .Copyright p{
-        
         padding: 30px 90px 30px 90px;
     }
 
     .redesSociales-footer{
-        
+        margin-left: 5em;
     }
 
     footer .redesSociales-footer ul li a{
-        margin: 0 40px 0 40px;
+        margin: 0 10px 0 10px;
     }
 
     footer div ul li a .fa-square-facebook{
@@ -321,11 +323,6 @@ li a:hover{
     }
 
 }
-
-
-
-
-
 
 footer div p{ 
     text-align: center;
